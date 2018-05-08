@@ -15,6 +15,7 @@
 
 
 ## Installing CLI  
+___
 
 ### For Linux
 
@@ -26,6 +27,9 @@
 ```
 
 <br />
+<br />
+## What then ?
+___
 
 1. Select the name of the project, then
 <br />
@@ -38,6 +42,7 @@
 <br />
 
 2. Insert the API credentials for Oauth and URL for mongoDB connection in secret.js
+<br />
 <br />
 
 ```javascript
@@ -55,6 +60,7 @@
 
 ```
 
+<br />
 <br />
 
 3. You are good to go
