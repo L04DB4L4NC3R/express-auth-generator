@@ -13,43 +13,48 @@
 
 ### For Linux
 
+<br />
+
 ```
-> $ curl -L https://fileserve.herokuapp.com/download/express_auth_generator | bash
-> $ authgen
+ $ curl -L https://fileserve.herokuapp.com/download/express_auth_generator | bash
+ $ authgen
 ```
 
 
 
 1. Select the name of the project, then
+<br />
 
 ```
-> $ cd projectname
-> $ npm install
+ $ cd projectname
+ $ npm install
 ```
 
 
 2. Insert the API credentials for Oauth and URL for mongoDB connection in secret.js
+<br />
 
 ```javascript
-> module.exports = {
->     mongoURL:"your mongoDB url",
->     salt:10,
->     secretKey:"your session secret",
->     gclientID:'your google client ID',
->     gclientSecret:'your google client secret',
->     gcallbackURL:'your google callback URL',
->     fclientID:'your facebook client ID',
->     fclientSecret:'your facebook client secret',
->     fcallbackURL:'your google callback URL'
-> };
+ module.exports = {
+     mongoURL:"your mongoDB url",
+     salt:10,
+     secretKey:"your session secret",
+     gclientID:'your google client ID',
+     gclientSecret:'your google client secret',
+     gcallbackURL:'your google callback URL',
+     fclientID:'your facebook client ID',
+     fclientSecret:'your facebook client secret',
+     fcallbackURL:'your google callback URL'
+ };
 
 ```
 
 
 3. You are good to go
+<br />
 
 ```
-> $ nodemon app
+ $ nodemon app
 ```
 
 
