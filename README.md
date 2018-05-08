@@ -51,3 +51,6 @@ module.exports = {
 ```
 $ nodemon app
 ```
+
+
+![Alt text](https://blog.christopherianmurphy.com/assets/images/posts/publishing-npm-packages/publishing-npm-packages.png)
