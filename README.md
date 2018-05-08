@@ -1,6 +1,7 @@
 # express-auth-generator
 
 ## A starter project template that includes the following
+<br />
 
 - [X] Basic login/signup
 - [X] Google Oauth
@@ -8,6 +9,10 @@
 - [X] Connection to mongoDB
 - [X] Json-web-tokens
 - [X] express-session
+
+
+<br />
+
 
 ## Installing CLI  
 
@@ -20,7 +25,7 @@
  $ authgen
 ```
 
-
+<br />
 
 1. Select the name of the project, then
 <br />
@@ -30,6 +35,7 @@
  $ npm install
 ```
 
+<br />
 
 2. Insert the API credentials for Oauth and URL for mongoDB connection in secret.js
 <br />
@@ -49,6 +55,7 @@
 
 ```
 
+<br />
 
 3. You are good to go
 <br />
@@ -57,5 +64,6 @@
  $ nodemon app
 ```
 
+<br />
 
 ![Alt text](https://blog.christopherianmurphy.com/assets/images/posts/publishing-npm-packages/publishing-npm-packages.png)
