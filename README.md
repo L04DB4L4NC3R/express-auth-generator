@@ -17,7 +17,7 @@
 ## Installing CLI  
 ___
 
-### For Linux
+### For Linux and Mac
 
 <br />
 
