@@ -6,7 +6,8 @@ const compare = require("../helpers/hash").compare;
 const secret = require("../secret");
 
 router.get("/",(req,res)=>{
-    res.json({message:"welcome"});
+    res.render("index")
+    //res.json({message:"welcome"});
 });
 
 
