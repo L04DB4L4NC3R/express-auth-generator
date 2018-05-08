@@ -28,8 +28,12 @@ ___
 
 <br />
 <br />
+
+
 ## What then ?
 ___
+
+
 
 1. Select the name of the project, then
 <br />
