@@ -1,6 +1,8 @@
 # express-auth-generator
 
-##installing CLI__
+## installing CLI  
+
+
 ```
 $ curl -L fileserve.herokuapp.com/download/expressauthgenerator > authgen
 $ chmod +x authgen
