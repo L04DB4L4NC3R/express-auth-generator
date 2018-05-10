@@ -13,7 +13,8 @@ router.get("/",(req,res)=>{
 
 
 router.post("/", async (req,res)=>{
-
+    if(req.body.name==="" || req.body.passwd==="")
+        res.send("Empty fields")
     var user = await users.findOne({name:req.body.name});
 
     //signup

@@ -24,7 +24,7 @@ passport.use(
         callbackURL:secret.gcallbackURL
     }, function(accessToken,refreshToken,profile,done){
 
-            users.findOne({name:profile.id})
+            users.findOne({name:profile.displayName})
             .then((user)=>{
                 if(user){
                     console.log("user exists");
@@ -61,7 +61,7 @@ passport.use(new FacebookStrategy({
     callbackURL:secret.fcallbackURL
 },function(accessToken,refreshToken,profile,done){
 
-    users.findOne({name:profile.id})
+    users.findOne({name:profile.displayName})
     .then((u)=>{
         if(u){
             console.log("user exists");
