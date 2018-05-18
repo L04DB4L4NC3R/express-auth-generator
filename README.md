@@ -23,7 +23,7 @@ ___
 
 ```
  $ curl -L https://fileserve.herokuapp.com/download/express_auth_generator | bash
- $ authgen
+ $ authgen google_auth
 ```
 
 <br />
@@ -57,9 +57,6 @@ ___
      gclientID:'your google client ID',
      gclientSecret:'your google client secret',
      gcallbackURL:'your google callback URL',
-     fclientID:'your facebook client ID',
-     fclientSecret:'your facebook client secret',
-     fcallbackURL:'your google callback URL'
  };
 
 ```
