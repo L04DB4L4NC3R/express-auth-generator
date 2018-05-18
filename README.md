@@ -23,7 +23,7 @@ ___
 
 ```
  $ curl -L https://fileserve.herokuapp.com/download/express_auth_generator | bash
- $ authgen
+ $ authgen facebook_auth
 ```
 
 <br />
@@ -54,9 +54,6 @@ ___
      mongoURL:"your mongoDB url",
      salt:10,
      secretKey:"your session secret",
-     gclientID:'your google client ID',
-     gclientSecret:'your google client secret',
-     gcallbackURL:'your google callback URL',
      fclientID:'your facebook client ID',
      fclientSecret:'your facebook client secret',
      fcallbackURL:'your google callback URL'
@@ -68,7 +65,7 @@ ___
 <br />
 
 3. You are good to go
-<br />
+<br />s
 
 ```
  $ nodemon app
