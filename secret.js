@@ -4,9 +4,6 @@ module.exports = {
     mongoURL:"",
     salt:10,
     secretKey:"",
-    gclientID:'',
-    gclientSecret:'',
-    gcallbackURL:'',
     fclientID:'',
     fclientSecret:'',
     fcallbackURL:''
