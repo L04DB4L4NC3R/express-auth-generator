@@ -23,12 +23,60 @@ ___
 
 ```
  $ curl -L https://fileserve.herokuapp.com/download/express_auth_generator | bash
- $ authgen
 ```
 
 <br />
 <br />
 
+## How to run command
+
+### For auth project options-
+
+<br />
+
+```
+$ authgen
+```
+
+<br />
+<br />
+
+### For facebook auth project-
+
+<br />
+
+```
+$ authgen facebook_auth
+```
+
+<br />
+<br />
+
+### For google auth project-
+
+<br />
+
+```
+$ authgen googel_auth
+```
+
+<br />
+
+<br />
+
+### For both facebook and google auth project-
+
+<br />
+
+```
+$ authgen all
+```
+
+<br />
+
+
+<br />
+<br />
 
 ## What then ?
 ___
