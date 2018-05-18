@@ -57,7 +57,7 @@ $ authgen facebook_auth
 <br />
 
 ```
-$ authgen googel_auth
+$ authgen google_auth
 ```
 
 <br />
