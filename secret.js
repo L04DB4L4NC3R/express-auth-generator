@@ -7,7 +7,4 @@ module.exports = {
     gclientID:'',
     gclientSecret:'',
     gcallbackURL:'',
-    fclientID:'',
-    fclientSecret:'',
-    fcallbackURL:''
 };

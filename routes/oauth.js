@@ -28,27 +28,4 @@ router.get("/logout",(req,res)=>{
 });
 
 
-//facebook oauth
-
-router.get('/facebook',passport.authenticate('facebook',{
-    scope: ['publish_actions']
-}));
-
-
-router.get('/facebook/redirect',passport.authenticate('facebook'),(req,res)=>{
-    if(req.user){
-        jwt.sign({user:req.user},secret.secretKey,{expiresIn:'2d'},(err,token)=>{
-            if(err)
-                res.send(err);
-
-            req.session.name = req.user.name;
-            res.json({token:token,name:req.session.name});
-        });
-    }
-    else
-        res.send("error in oauth.js");
-});
-
-
-
 module.exports = router;
