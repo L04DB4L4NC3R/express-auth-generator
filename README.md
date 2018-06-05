@@ -93,23 +93,21 @@ ___
 
 <br />
 
-2. Insert the API credentials for Oauth and URL for mongoDB connection in secret.js
+2. Insert the API credentials for Oauth and URL for mongoDB connection in .env
 <br />
 <br />
 
 ```javascript
- module.exports = {
-     mongoURL:"your mongoDB url",
-     salt:10,
-     secretKey:"your session secret",
-     gclientID:'your google client ID',
-     gclientSecret:'your google client secret',
-     gcallbackURL:'your google callback URL',
-     fclientID:'your facebook client ID',
-     fclientSecret:'your facebook client secret',
-     fcallbackURL:'your google callback URL'
- };
-
+MONGO_URL=
+SALT=
+SECRET_KEY=
+GCLIENT_ID=
+GCLIENT_SECRET=
+GCALLBACK_URL=
+FCLIENT_ID=
+FCLIENT_SECRET=
+FCALLBACK_URL=
+PORT=
 ```
 
 <br />

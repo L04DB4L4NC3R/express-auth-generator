@@ -2,7 +2,6 @@ const express = require("express");
 const body_parser = require("body-parser");
 const morgan = require("morgan");
 const session = require("express-session");
-const secret = require("./secret");
 const passport = require("passport");
 require("./db/connect");
 require("./helpers/oauth_config");
@@ -17,7 +16,7 @@ app.use(body_parser.urlencoded({extended:false}));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(session({
-    secret:secret.secretKey,
+    secret:process.env.SECRET_KEY,
     saveUninitialized:false,
     resave:false
 }));
